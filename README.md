@@ -186,7 +186,7 @@ The frontend is also a **Progressive Web App**, allowing users to:
 ## 🙌 Credits
 
 * Jobs & PWA modules developed by **Ammar Atique**
-* Vehicle & Allocation modules contributed by **Haris Raees** 👏
+* Vehicle & Allocation modules contributed by **Haris Raees** 
 
 ---
 
