@@ -20,21 +20,21 @@ TruckManagementSystem/
 
 ### **Backend** (`graphql-api`)
 
-* 🚀 Node.js + Express
-* 🧭 Apollo Server
-* 🧬 GraphQL
-* 🗄️ Mongoose + MongoDB
-* 🔐 express-jwt, jwks-rsa (Authentication)
-* 🌐 WebSockets (Real-time subscriptions)
+- 🚀 Node.js + Express
+- 🧭 Apollo Server
+- 🧬 GraphQL
+- 🗄️ Mongoose + MongoDB
+- 🔐 express-jwt, jwks-rsa (Authentication)
+- 🌐 WebSockets (Real-time subscriptions)
 
 ### **Frontend** (`webapp`)
 
-* ⚡ Next.js + React
-* 🧭 @apollo/client (GraphQL client)
-* 🧰 Material UI (MUI v7) for UI components
-* 🧭 react-hook-form + yup (Form handling & validation)
-* 🗺️ maplibre-gl for map integration
-* 📊 ag-Grid for data grids
+- ⚡ Next.js + React
+- 🧭 @apollo/client (GraphQL client)
+- 🧰 Material UI (MUI v7) for UI components
+- 🧭 react-hook-form + yup (Form handling & validation)
+- 🗺️ maplibre-gl for map integration
+- 📊 ag-Grid for data grids
 
 ---
 
@@ -90,31 +90,31 @@ webapp/
 
 ### 1. **Job Management**
 
-* Create and manage jobs with details:
+- Create and manage jobs with details:
 
-  * Name, date, job type, payment type, delivery type
-  * Custom field groups & templates
-  * Associated documents
+  - Name, date, job type, payment type, delivery type
+  - Custom field groups & templates
+  - Associated documents
 
 ### 2. **Vehicle Management**
 
-* Manage vehicle records including:
+- Manage vehicle records including:
 
-  * Chassis Number, Engine Number
-  * Tonnage (Capacity)
-  * Registration expiry
-  * Odometer reading
-  * Vehicle documents
+  - Chassis Number, Engine Number
+  - Tonnage (Capacity)
+  - Registration expiry
+  - Odometer reading
+  - Vehicle documents
 
 ### 3. **Allocation**
 
-* Assign and unassign jobs to specific vehicles.
-* View real-time allocation status.
+- Assign and unassign jobs to specific vehicles.
+- View real-time allocation status.
 
 ### 4. **PWA Page**
 
-* View allocated vehicles and their shift timings.
-* Complete assigned jobs through a mobile-friendly interface.
+- View allocated vehicles and their shift timings.
+- Complete assigned jobs through a mobile-friendly interface.
 
 ---
 
@@ -145,8 +145,8 @@ npm install
 
 ### 3. **Environment Variables**
 
-* Create a `.env` file in `graphql-api/` for backend configuration.
-* Create a `.env.local` file in `webapp/` for frontend configuration.
+- Create a `.env` file in `graphql-api/` for backend configuration.
+- Create a `.env.local` file in `webapp/` for frontend configuration.
 
 ### 4. **Run Development Servers**
 
@@ -177,16 +177,18 @@ Users must be authenticated to access most features.
 
 The frontend is also a **Progressive Web App**, allowing users to:
 
-* Install the app on mobile or desktop
-* Access offline features (limited)
-* Get a more native experience
+- Install the app on mobile or desktop
+- Access offline features (limited)
+- Get a more native experience
+
+---
 
 ---
 
 ## 🙌 Credits
 
-* Jobs & PWA modules developed by **Ammar Atique**
-* Vehicle & Allocation modules contributed by **Haris Raees** 
+- Jobs & PWA modules developed by **[Ammar Atique](https://github.com/MuhammadAmmarAtique)**
+- Vehicle & Allocation modules contributed by **[Haris Raees](https://github.com/harrisrais)**
 
 ---
 
@@ -198,9 +200,9 @@ This project is licensed under the **MIT License** — feel free to use and modi
 
 ## 🏗️ Future Improvements
 
-* ✅ Advanced analytics dashboard
-* 🚦 Real-time tracking of vehicles
-* 📲 Push notifications
-* 📡 WebSocket optimization
+- ✅ Advanced analytics dashboard
+- 🚦 Real-time tracking of vehicles
+- 📲 Push notifications
+- 📡 WebSocket optimization
 
 ---
