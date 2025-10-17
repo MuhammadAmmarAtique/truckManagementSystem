@@ -1,7 +1,3 @@
-Here’s a clean, professional, and easy-to-read **README** file for your **Truck Management System** project 👇
-
----
-
 # 🚚 Truck Management System
 
 A full-stack **truck and job management platform** built with modern web technologies.
@@ -61,20 +57,6 @@ graphql-api/
 └── tsconfig.json
 ```
 
-### 🧰 Main Dependencies
-
-```json
-"@apollo/server": "^5.0.0",
-"express": "^5.1.0",
-"mongoose": "^8.18.0",
-"graphql-ws": "^6.0.6",
-"express-jwt": "^8.5.1",
-"jwks-rsa": "^3.2.0",
-"dotenv": "17.2.1"
-```
-
----
-
 ## 🖥️ Frontend (webapp)
 
 ### 📁 Directory Structure
@@ -101,21 +83,8 @@ webapp/
 ├── .env.local
 ├── package.json
 └── tsconfig.json
+
 ```
-
-### 🧰 Main Dependencies
-
-```json
-"next": "^15.5.2",
-"@apollo/client": "^4.0.3",
-"@mui/material": "^7.3.0",
-"react-hook-form": "^7.62.0",
-"yup": "^1.7.0",
-"ag-grid-react": "^34.1.1",
-"maplibre-gl": "^5.6.1"
-```
-
----
 
 ## 🚛 Core Features
 
@@ -216,8 +185,8 @@ The frontend is also a **Progressive Web App**, allowing users to:
 
 ## 🙌 Credits
 
-* Core system developed by **Ammar Atique**
-* Vehicle & Allocation modules contributed by **[Friend’s Name]** 👏
+* Jobs & PWA modules developed by **Ammar Atique**
+* Vehicle & Allocation modules contributed by **Haris Raees** 👏
 
 ---
 
@@ -235,5 +204,3 @@ This project is licensed under the **MIT License** — feel free to use and modi
 * 📡 WebSocket optimization
 
 ---
-
-Would you like me to make it a **well-formatted `README.md` file** (with Markdown headings, badges, and emojis ready to use on GitHub)? I can generate the file directly.
