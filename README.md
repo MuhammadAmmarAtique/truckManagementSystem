@@ -203,6 +203,6 @@ This project is licensed under the **MIT License** — feel free to use and modi
 - ✅ Advanced analytics dashboard
 - 🚦 Real-time tracking of vehicles
 - 📲 Push notifications
-- 📡 WebSocket optimization
+- 📡 WebSocket optimizations
 
 ---
