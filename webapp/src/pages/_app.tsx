@@ -12,6 +12,7 @@ import HomeNavbar from "@/components/vehicles/HomeNavbar";
 import { inter } from "@/theme/theme";
 import { UserProvider } from "@auth0/nextjs-auth0/client";
 import { JobsProvider } from "@/contexts/JobsContext";
+import ServiceWorkerRegister from "@/config/ServiceWorkerRegister"
 
 export default function MyApp({ Component, pageProps }: AppProps) {
   const router = useRouter();
@@ -28,6 +29,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
                 <main className={inter.className}>
                   {isHome && <HomeNavbar />}
                   <Component {...pageProps} />
+                    <ServiceWorkerRegister /> 
                 </main>
               </JobsProvider>
             </SnackbarProvider>

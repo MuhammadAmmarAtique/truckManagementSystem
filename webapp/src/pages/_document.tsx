@@ -3,7 +3,10 @@ import { Html, Head, Main, NextScript } from "next/document";
 export default function Document() {
   return (
     <Html lang="en">
-      <Head />
+      <Head>
+        <link rel="manifest" href="/manifest.json" />
+      </Head>
+
       <body>
         {/*Main is a placeholder component provided by Next.js which render the cureent page component. */}
         <Main />

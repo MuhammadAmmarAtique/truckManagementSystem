@@ -32,6 +32,8 @@ export default function CustomFieldGroupDetails({
   onEdit,
   onDelete,
 }: Props) {
+  const [tab, setTab] = useState(0);
+
   if (!group) {
     return (
       <Box
@@ -50,8 +52,6 @@ export default function CustomFieldGroupDetails({
       </Box>
     );
   }
-
-  const [tab, setTab] = useState(0);
 
   return (
     <Box sx={{ px: 2, height: "100vh", overflow: "auto", mt: -5 }}>
